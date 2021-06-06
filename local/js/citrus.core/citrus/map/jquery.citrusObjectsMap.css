@@ -1,0 +1,89 @@
+/*map style*/
+@media all {
+	.citrus-objects-map {
+		position: relative;
+		background-color: #fff;
+	}
+	.citrus-objects-map:after {
+		background-image: url("loading.gif");
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		content: '';
+		position: absolute;
+		opacity: .1;
+		z-index: 0;
+	}
+	.citrus-objects-map>ymaps {
+		z-index: 1;
+	}
+	.citrus-objects-map-popup {
+		display: block;
+		width: 205px;
+		overflow: hidden;
+		text-decoration: none;
+		font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+	}
+	.citrus-objects-map-popup__image {
+		width: 100%;
+	}
+	.citrus-objects-map-popup__price {
+		display: block;
+		padding: 8px;
+		color: #fff;
+		font-size: 24px;
+		line-height: 24px;
+		text-align: center;
+	}
+	.citrus-objects-map-popup__price span {
+		display: inline-block;
+		vertical-align: middle;
+		line-height: 1;
+	}
+	.citrus-objects-map-popup__price small {
+		font-size: 18px;
+		font-weight: 400;
+	}
+	.citrus-objects-map-popup__title {
+		display: block;
+		color: #333;
+		font-size: 16px;
+		line-height: 20px;
+		margin: 8px 0;
+		font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+	}
+	.citrus-objects-map-popup__desc {
+		display: block;
+		color: #999;
+		font-size: 13px;
+		line-height: 16px;
+		margin: 7px 0;
+		font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+	}
+
+	.citrus-objects-map .ymaps-touch-scroll {
+		z-index: 0;
+	}
+}
+
+/*popup map style*/
+@media all {
+	.mfp-wrap.full-screen-map .mfp-container {
+		padding: 0;
+	}
+	.mfp-wrap.full-screen-map .mfp-content {
+		position: absolute;
+		top: 40px;
+		bottom: 40px;
+		left: 40px;
+		right: 40px;
+		width: auto;
+		height: auto;
+	}
+	.mfp-wrap.full-screen-map .mfp-close {
+		transform: translate(30px, -40px);
+		opacity: 1;
+		color: white;
+	}
+}

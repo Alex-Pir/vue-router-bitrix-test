@@ -1,0 +1,36 @@
+{
+  "name": "citrus.inview",
+  "main": "inView.js",
+  "homepage": "https://fenyagg.github.io/inView/",
+  "authors": [
+    "fenyagg <fenyagg@gmail.com>"
+  ],
+  "description": "jquery plugin watch view object and call events and callbacks",
+  "keywords": [
+    "inview",
+    "jquery",
+    "citrus"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "*.css",
+    "*.html",
+    "*.md",
+    "gulpfile.js",
+    "package.json"
+  ],
+  "_release": "68bf232bc7",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "68bf232bc7a2e8ec2a4e8173b1b42ade9358f0a3"
+  },
+  "_source": "https://github.com/fenyagg/inView.git",
+  "_target": "*",
+  "_originalSource": "citrus.inview"
+}

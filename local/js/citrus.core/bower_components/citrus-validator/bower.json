@@ -1,0 +1,39 @@
+{
+  "name": "citrus-validator",
+  "description": "Jquery validator",
+  "main": "dist/js/jquery.citrusValidator.js",
+  "authors": [
+    "fenyagg"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "citrus-validator",
+    "citrus",
+    "jquery validator",
+    "citrusValidator"
+  ],
+  "version": "1.4.9",
+  "homepage": "https://github.com/fenyagg/citrus-validate",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "demo",
+    "src",
+    ".gitattributes",
+    ".gitignore",
+    ".sublime-gulp.cache",
+    "ajax.php",
+    "bower.json",
+    "gulpfile.js",
+    "index.html",
+    "package.json",
+    "sublime-gulp.log",
+    "*.md",
+
+    "dist/libs"
+  ]
+}

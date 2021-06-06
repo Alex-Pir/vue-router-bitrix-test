@@ -1,0 +1,51 @@
+
+/** overlay */
+@media all {
+	.loading-overlay {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-color: rgba(0, 0, 0, 0.50);
+		z-index: 20;
+		animation: fade-in .15s;
+	}
+}
+@media all {
+	svg.loading-icon {
+		font-size: 10px;
+		max-width: 30%;
+		max-height: 30%;
+		width: 6em;
+		height: 6em;
+
+		animation: ui-progress-circular-rotate .7s linear infinite;
+		bottom: 0;
+		left: 0;
+		margin: auto;
+		position: absolute;
+		right: 0;
+		top: 0;
+		transform-origin: center center;
+	}
+	svg.loading-icon circle {
+		stroke-dasharray: 89,200;
+		stroke-dashoffset: -35px;
+		stroke-linecap: round;
+		stroke: currentColor;
+	}
+}
+
+/* animation */
+@media all {
+	@keyframes fade-in {
+		from { opacity: 0; }
+		to { opacity: 1; }
+	}
+	@keyframes ui-progress-circular-rotate {
+		to {
+			transform: rotate(1turn)
+		}
+	}
+}

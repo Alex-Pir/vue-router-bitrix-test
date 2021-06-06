@@ -1,0 +1,37 @@
+{
+  "name": "javascript-equal-height-responsive-rows",
+  "homepage": "https://github.com/Sam152/Javascript-Equal-Height-Responsive-Rows",
+  "authors": [
+    "Sam152 <sam@codedrop.com.au>"
+  ],
+  "description": "A simple jQuery plugin to keep elements the same height, supporting resizing and responsive layouts.",
+  "main": "grids.min.js",
+  "keywords": [
+    "columns",
+    "same",
+    "height",
+    "jquery",
+    "responsive",
+    "resize",
+    "simple",
+    "equal"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "9e01fe3612",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "9e01fe3612ee41be89e264f14da43a2ec3071df1"
+  },
+  "_source": "https://github.com/bitflower/javascript-equal-height-responsive-rows.git",
+  "_target": "*",
+  "_originalSource": "javascript-equal-height-responsive-rows",
+  "_direct": true
+}

@@ -1,0 +1,217 @@
+
+/*----------------------
+General styles
+----------------------*/
+
+*,:after,:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /*outline: none;*/
+}
+html, html.tag-html {
+    height: auto;
+    min-width: 320px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body, body.tag-body {
+    background: #fff;
+    margin: 0;
+    position: relative;
+    overflow-x: hidden;
+}
+@media (max-width: 319px) {
+    body, body.tag-body {
+        overflow: auto;
+    }
+}
+
+.clearfix:before, .clearfix:after {
+    display: table;
+    content: " ";
+}
+.clearfix:after {
+    clear: both;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+.indent, .indent-min, .indent-max {
+    margin: 0;
+}
+.indent-min {
+    height: 10px;
+}
+.indent {
+    height: 20px;
+}
+.indent-max {
+    height: 30px;
+}
+
+/*video*/
+@media all {
+    .embed-responsive {
+        position: relative;
+        display: block;
+        width: 100%;
+        padding: 0;
+        overflow: hidden;
+
+        margin: auto;
+    }
+
+    .embed-responsive::before {
+        display: block;
+        content: "";
+        padding-top: 56.25%;
+    }
+
+    .embed-responsive .embed-responsive-item,
+    .embed-responsive iframe,
+    .embed-responsive embed,
+    .embed-responsive object,
+    .embed-responsive video {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+
+    .embed-responsive-21by9::before {
+        padding-top: 42.857143%;
+    }
+
+    .embed-responsive-16by9::before {
+        padding-top: 56.25%;
+    }
+
+    .embed-responsive-4by3::before {
+        padding-top: 75%;
+    }
+
+    .embed-responsive-1by1::before {
+        padding-top: 100%;
+    }
+}
+
+pre {
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    white-space: pre-wrap;
+    text-align: left;
+}
+pre code {
+    padding: 0;
+    font-size: inherit;
+    color: inherit;
+    white-space: pre-wrap;
+    background-color: transparent;
+    border-radius: 0;
+}
+.no-select {
+    user-selected: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+
+/* humburder */
+@media all {
+    /*hamburger*/
+    a.hamburger {
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        height: 1.5em;
+        font-size: 24px;
+        width: 1.5em;
+        border-radius: 50%;
+        transition: .3s ease;
+        background-color: transparent;
+    }
+    a.hamburger .lines {
+        display: block;
+        width: 1em;
+        height: 0.1666666666666667em;
+        background: currentColor;
+        transition: background 0.3s;
+        align-items: center;
+        position: relative;
+    }
+    a.hamburger .lines:before, a.hamburger .lines:after {
+        content: '';
+        display: inline-block;
+        width: 1em;
+        height: 0.1666666666666667em;
+        background: currentColor;
+        transition: transform 0.3s;
+        position: absolute;
+        left: 0;
+        -webkit-transform-origin: 0.28571em center;
+        transform-origin: 0.28571em center;
+    }
+    a.hamburger .lines:before {
+        top: -0.333333333em;
+    }
+    a.hamburger .lines:after  {
+        top: 0.333333333em;
+    }
+
+    /*active*/
+    a.hamburger._active {
+        background-color: #d6eef7;
+    }
+    a.hamburger._active .lines:before, a.hamburger._active .lines:after {
+        -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+        top: 0;
+        background: currentColor;
+    }
+    a.hamburger._active .lines {
+        background: transparent;
+    }
+    a.hamburger._active .lines:before {
+        -webkit-transform: rotate3d(0, 0, 1, 45deg);
+        transform: rotate3d(0, 0, 1, 45deg);
+    }
+    a.hamburger._active .lines:after  {
+        -webkit-transform: rotate3d(0, 0, 1, -45deg);
+        transform: rotate3d(0, 0, 1, -45deg);
+    }
+}
+
+#bx-composite-banner {
+    margin-top: 5px;
+}
+
+@-ms-viewport{width:device-width}
+@media screen and (max-width:400px) {
+    @-ms-viewport{
+        width:320px;
+    }
+}
+
+.overflow-h {
+    overflow: hidden;
+}
