@@ -1,0 +1,18 @@
+<svg version="1.1" id="work-4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 439 413" style="enable-background:new 0 0 439 413;" xml:space="preserve">
+<g>
+	<path d="M399,330V41.5C399,18.2,380.8,0,357.5,0h-316C18.2,0,0,18.2,0,41.5V107h64v264.5c0,23.3,18.2,41.5,41.5,41.5h292
+		c23.3,0,41.5-18.2,41.5-41.5V330H399z M397.5,394H140.4c4.4-6.6,6.6-14,6.6-22.5V349h273v22.5C420,384.3,410.3,394,397.5,394z
+		 M76.2,19h281.3c12.8,0,22.5,9.7,22.5,22.5V330H128v41.5c0,12.8-9.7,22.5-22.5,22.5S83,384.3,83,371.5v-330
+		C83,34,80.7,26.5,76.2,19z M19,41.5C19,28.7,28.7,19,41.5,19S64,28.7,64,41.5V88H19V41.5z"/>
+	<rect x="290" y="169" width="56" height="19"/>
+	<rect x="117" y="169" width="160" height="19"/>
+	<rect x="194" y="214" width="152" height="19"/>
+	<rect x="117" y="214" width="64" height="19"/>
+	<rect x="154" y="260" width="192" height="19"/>
+	<rect x="117" y="260" width="24" height="19"/>
+	<rect x="194" y="124" width="152" height="19"/>
+	<rect x="117" y="124" width="64" height="19"/>
+	<rect x="170" y="63" width="115" height="19"/>
+</g>
+</svg>

@@ -1,0 +1,30 @@
+<svg id="loader-wait-circle" class="lds-message" width="50px" height="50px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+    <g transform="translate(20 50)">
+        <circle cx="0" cy="0" r="6" fill="#f3f3f3" transform="scale(0.833955 0.833955)">
+            <animateTransform attributeName="transform" type="scale" begin="-0.44999999999999996s" calcMode="spline"
+                              keySplines="0.3 0 0.7 1;0.3 0 0.7 1" values="0;1;0" keyTimes="0;0.5;1" dur="1.2s"
+                              repeatCount="indefinite"></animateTransform>
+        </circle>
+    </g>
+    <g transform="translate(40 50)">
+        <circle cx="0" cy="0" r="6" fill="#d8dddf" transform="scale(0.999999 0.999999)">
+            <animateTransform attributeName="transform" type="scale" begin="-0.3s" calcMode="spline"
+                              keySplines="0.3 0 0.7 1;0.3 0 0.7 1" values="0;1;0" keyTimes="0;0.5;1" dur="1.2s"
+                              repeatCount="indefinite"></animateTransform>
+        </circle>
+    </g>
+    <g transform="translate(60 50)">
+        <circle cx="0" cy="0" r="6" fill="#b8babd" transform="scale(0.832457 0.832457)">
+            <animateTransform attributeName="transform" type="scale" begin="-0.15s" calcMode="spline"
+                              keySplines="0.3 0 0.7 1;0.3 0 0.7 1" values="0;1;0" keyTimes="0;0.5;1" dur="1.2s"
+                              repeatCount="indefinite"></animateTransform>
+        </circle>
+    </g>
+    <g transform="translate(80 50)">
+        <circle cx="0" cy="0" r="6" fill="#a3a3ac" transform="scale(0.49901 0.49901)">
+            <animateTransform attributeName="transform" type="scale" begin="0s" calcMode="spline"
+                              keySplines="0.3 0 0.7 1;0.3 0 0.7 1" values="0;1;0" keyTimes="0;0.5;1" dur="1.2s"
+                              repeatCount="indefinite"></animateTransform>
+        </circle>
+    </g>
+</svg>
